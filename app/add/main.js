@@ -2,14 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebas
 import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAmKyGOfUzhjOJSOn1aSkajdYAGGIb5FZM",
-  authDomain: "sitthichokthq.firebaseapp.com",
-  databaseURL: "https://sitthichokthq-default-rtdb.firebaseio.com",
-  projectId: "sitthichokthq",
-  storageBucket: "sitthichokthq.firebasestorage.app",
-  messagingSenderId: "600844750690",
-  appId: "1:600844750690:web:241e0c7b015c897d5da63b",
-  measurementId: "G-VYYPFH6X0Y"
+//you api key
 };
 
 const app = initializeApp(firebaseConfig);
